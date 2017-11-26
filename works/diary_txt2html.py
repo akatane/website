@@ -29,7 +29,7 @@ while line_in != "":
     # in:  [date]sentence\r\n
     # out: <tr><td>date</td><td>sentence</td></tr>\r\n
     row = line_in.strip("[]").split("]")
-    line_out = "<tr><td>{0[0]}</td><td>{0[1]}</td></tr>\r\n".format(row)
+    line_out = "<tr><td>{0[0]}</td><td>{0[1]}</td></tr>\n".format(row)
 
     # write 1 line
     file_out.write(line_out)
