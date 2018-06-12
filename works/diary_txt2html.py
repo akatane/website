@@ -1,6 +1,7 @@
 # diary.txt
 # UTF-8 encoding
 # [date]sentence\r\n
+import html
 
 # open output file
 file_out = open("diary.html", mode="w", encoding="utf-8")
@@ -28,7 +29,8 @@ while line_in != "":
     # manipulate strings
     # in:  [date]sentence\r\n
     # out: <tr><td>date</td><td>sentence</td></tr>\r\n
-    row = line_in.strip("[]").split("]")
+    escape_line_in = html.escape(line_in)
+    row = escape_line_in.strip("[]").split("]")
     line_out = "<tr><td>{0[0]}</td><td>{0[1]}</td></tr>\n".format(row)
 
     # write 1 line
