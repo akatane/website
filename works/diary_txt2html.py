@@ -6,7 +6,7 @@ import html
 # open output file
 file_out = open("diary.html", mode="w", encoding="utf-8")
 
-# white html before table
+# write html before table
 file_out.write("""<!DOCTYPE html>
 <html lang="ja">
 <head>
