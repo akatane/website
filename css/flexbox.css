@@ -1,0 +1,12 @@
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+  margin: 0; }
+
+#header {
+  background-color: #ffccff; }
+
+#main {
+  background-color: #ffffcc; }
+
+#footer {
+  background-color: #ccffff; }
