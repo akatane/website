@@ -14,4 +14,5 @@
 3.  `git commit`
 4.  `git pull`
 5.  `git push origin master`
-6.  <https://akatogeme10.azurewebsites.net>にアクセスして動作確認
+6.  <https://portal.azure.com>のデプロイセンターにログがあるか確認
+7.  <https://akatogeme10.azurewebsites.net>にアクセスして動作確認
